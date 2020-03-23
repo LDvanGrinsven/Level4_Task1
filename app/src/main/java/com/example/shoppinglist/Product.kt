@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
 
 
-@Entity(tableName = "producttable")
+@Entity(tableName = "product_table")
 
 class Product(
     @ColumnInfo(name = "name")
